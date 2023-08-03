@@ -3,3 +3,61 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body * {
+    font-family: 'Inter', sans-serif;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+ol {
+    list-style-type: none;
+}
+
+form {
+    width: 70%; 
+    background-color: #f2f2f2;
+    padding: 2rem;
+    border-radius: 0.5rem;
+}
+
+h1 {
+    margin-bottom: 1rem;
+}
+
+li {
+    margin-top: 1rem;
+}
+
+div {
+    margin-top: 0.3rem;
+}
+
+label {
+    margin-left: 0.3rem;
+}
+
+input:checked {
+    font-weight: bold;
+}
+
+button {
+    border: none;
+    margin-top: 1rem;
+    width: 100%;
+    padding: 1rem 2.3rem 1rem 2.3rem;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 4px rgb(0,0,0,0.1);
+}
+
+@media (min-width: 700px) {
+    form {
+        width: 40%;
+    }
+}
